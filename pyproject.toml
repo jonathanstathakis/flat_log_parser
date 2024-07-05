@@ -7,6 +7,9 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+frontmatter = "^3.0.8"
+python-dateutil = "^2.9.0.post0"
+regex = "^2024.5.15"
 
 
 [build-system]

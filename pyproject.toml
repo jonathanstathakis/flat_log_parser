@@ -1,16 +1,20 @@
 [tool.poetry]
 name = "flat-log-parser"
 version = "0.1.0"
-description = ""
+description = "Light-weight parser of flat log files to write as single file atoms."
 authors = ["OctaneOolong <62565951+OctaneOolong@users.noreply.github.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-frontmatter = "^3.0.8"
 python-dateutil = "^2.9.0.post0"
 regex = "^2024.5.15"
+pathlib = "^1.0.1"
+python-frontmatter = "^1.1.0"
 
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
 
 [build-system]
 requires = ["poetry-core"]
